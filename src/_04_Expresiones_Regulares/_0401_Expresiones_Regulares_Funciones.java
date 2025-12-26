@@ -36,7 +36,6 @@ public class _0401_Expresiones_Regulares_Funciones {
         // [0-9]    está incluido numeros de 0 a 9
         // [A-Z]    está incluido las letras de A a la Z 
         // {8}      indica cuantas repeticiones
-
         return dni.matches("^[0-9]{7,8}[T|R|W|A|G|M|Y|F|P|D|X|B|N|J|Z|S|Q|V|H|L|C|K|E]$");
     }
 
@@ -184,9 +183,8 @@ public class _0401_Expresiones_Regulares_Funciones {
     }
 
     /**
-     * 17. Validar el nombre de usuario de twitter (empieza por @ y puede
-     * contener letras mayusculas y minusculas, numeros, guiones y guiones
-     * bajos)
+     * 17. Validar el nombre de usuario de twitter (empieza por @ y puede contener letras mayusculas y minusculas,
+     * numeros, guiones y guiones bajos)
      */
     public static boolean validaUsuarioTwitter(String usuario) {
         return usuario.matches("^@([A-Za-z0-9_-]){1,15}$");

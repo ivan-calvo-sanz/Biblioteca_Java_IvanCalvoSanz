@@ -10,7 +10,7 @@ public class _0000_Esquema_Basicos {
        ENUM
        ============================================================
      */
-    enum Dia {
+    public enum Dia {
         LUNES, MARTES, MIERCOLES
     }
 

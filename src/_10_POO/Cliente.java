@@ -7,6 +7,7 @@ public class Cliente {
     ////////////////////////////////////////
     // ATRIBUTOS
     ////////////////////////////////////////
+    private static int clientesCreados = 0; // Atributo estatico
     private String nombre;
     private String apellidos;
     private int edad;
@@ -18,6 +19,7 @@ public class Cliente {
     // CONSTRUCTORES
     ////////////////////////////////////////
     public Cliente() {
+        Cliente.clientesCreados++;
     }
 
     public Cliente(String nombre, String apellidos, int edad, String direccion, String ciudad, LocalDate fNacimiento) {
@@ -32,6 +34,7 @@ public class Cliente {
         this.direccion = direccion;
         this.ciudad = ciudad;
         this.fNacimiento = fNacimiento;
+        Cliente.clientesCreados++;
     }
 
     ////////////////////////////////////////
@@ -97,6 +100,11 @@ public class Cliente {
     ////////////////////////////////////////
     // GETTERS & SETTERS
     ////////////////////////////////////////
+    // get del Atributo estatico
+    public static int getClientesCreados() {
+        return Cliente.clientesCreados;
+    }
+
     public String getNombre() {
         return nombre;
     }
