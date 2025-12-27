@@ -14,7 +14,7 @@ public class _0000_Esquema_Basicos {
         LUNES, MARTES, MIERCOLES
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         /* ============================================================
            VARIABLES
            ============================================================
@@ -223,6 +223,11 @@ public class _0000_Esquema_Basicos {
         }
         sn.close();
 
+        /* ===== LANZAR NUEVA EXCEPCION =====
+         */
+        if (valor < 0) {
+            throw new Exception("lanzo la Excepcion"); // lanzamos la excepcion (hay que declarar el metodo con: throws Exception)
+        }
 
         /* ============================================================
            TIPOS DE CONVERSION
@@ -232,42 +237,49 @@ public class _0000_Esquema_Basicos {
         int entero = 10;
         double aDouble = (double) entero;
 
-        System.out.println("int a double: " + aDouble);
+        System.out.println(
+                "int a double: " + aDouble);
 
         // double a int
         double decimal = 9.99;
         int aInt = (int) decimal;
 
-        System.out.println("double a int: " + aInt);
+        System.out.println(
+                "double a int: " + aInt);
 
         // int a float
         float aFloat = (float) entero;
 
-        System.out.println("int a float: " + aFloat);
+        System.out.println(
+                "int a float: " + aFloat);
 
         // String a int
         String strNumero = "123";
         int strAInt = Integer.parseInt(strNumero);
 
-        System.out.println("String a int: " + strAInt);
+        System.out.println(
+                "String a int: " + strAInt);
 
         // String a double
         String strDecimal = "45.67";
         double strADouble = Double.parseDouble(strDecimal);
 
-        System.out.println("String a double: " + strADouble);
+        System.out.println(
+                "String a double: " + strADouble);
 
         // char a String
         char letraChar = 'A';
         String charAString = Character.toString(letraChar);
 
-        System.out.println("char a String: " + charAString);
+        System.out.println(
+                "char a String: " + charAString);
 
         // String a char (primer carácter)
         String palabra = "Hola";
         char stringAChar = palabra.charAt(0);
 
-        System.out.println("String a char: " + stringAChar);
+        System.out.println(
+                "String a char: " + stringAChar);
 
         /* ============================================================
            TIPOS DE CONVERSION + TABLA ASCII
@@ -276,17 +288,21 @@ public class _0000_Esquema_Basicos {
         // char a int (valor ASCII)
         int ascii = (int) letraChar;  // reutilizamos letraChar
 
-        System.out.println("Char a ASCII: " + letraChar + " = " + ascii);
+        System.out.println(
+                "Char a ASCII: " + letraChar + " = " + ascii);
 
         // int a char (valor ASCII)
         int codigo = 66;
         char deAscii = (char) codigo;
 
-        System.out.println("ASCII a Char: " + codigo + " = " + deAscii);
+        System.out.println(
+                "ASCII a Char: " + codigo + " = " + deAscii);
 
         // Mostrar un mini-rango de la tabla ASCII (letras mayúsculas)
-        System.out.println("Tabla ASCII A-Z:");
-        for (char c = 'A'; c <= 'Z'; c++) {
+        System.out.println(
+                "Tabla ASCII A-Z:");
+        for (char c = 'A';
+                c <= 'Z'; c++) {
             System.out.println(c + " = " + (int) c);
         }
     }

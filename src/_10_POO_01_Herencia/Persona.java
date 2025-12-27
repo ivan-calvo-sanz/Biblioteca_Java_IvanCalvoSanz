@@ -1,9 +1,5 @@
 package _10_POO_01_Herencia;
 
-/**
- *
- * @author ivanc
- */
 public class Persona {
 
     private String nombre;
@@ -34,5 +30,4 @@ public class Persona {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
 }

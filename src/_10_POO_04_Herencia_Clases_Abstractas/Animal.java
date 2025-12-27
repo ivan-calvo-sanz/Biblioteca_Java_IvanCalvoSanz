@@ -1,9 +1,5 @@
 package _10_POO_04_Herencia_Clases_Abstractas;
 
-/**
- *
- * @author ivanc
- */
 abstract class Animal {
 
     private String nombre;
@@ -12,7 +8,7 @@ abstract class Animal {
         this.nombre = nombre;
     }
 
-    // Metodo abstracto (sin cuerpo se implementa en subclases)
+    // Metodo abstracto (sin cuerpo se implementa en clases heredadas)
     abstract void hacerSonido();
 
     // Metodo concreto (ya implementado)

@@ -1,9 +1,5 @@
 package _10_POO_01_Herencia;
 
-/**
- *
- * @author ivanc
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -12,6 +8,7 @@ public class Main {
 
         System.out.println(e.getNombre() + " : " + e.getCreditos() + " creditos");
         System.out.println(p.getNombre());
-    }
 
+        System.out.println(e);
+    }
 }

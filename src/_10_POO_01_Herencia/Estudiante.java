@@ -1,10 +1,6 @@
 package _10_POO_01_Herencia;
 
-/**
- *
- * @author ivanc
- */
-// CLASE QUE HEREDA DE LA CLASE Persona
+// CLASE Estudiante HEREDA DE LA CLASE Persona
 public class Estudiante extends Persona {
 
     private int creditos;
@@ -14,6 +10,11 @@ public class Estudiante extends Persona {
         this.creditos = 60;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " Estudiante{" + "creditos=" + creditos + '}';
+    }
+
     public int getCreditos() {
         return this.creditos;
     }
@@ -21,5 +22,4 @@ public class Estudiante extends Persona {
     public void setCreditos(int creditos) {
         this.creditos = creditos;
     }
-
 }

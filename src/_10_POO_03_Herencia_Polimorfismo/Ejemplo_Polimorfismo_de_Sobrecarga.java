@@ -1,9 +1,5 @@
 package _10_POO_03_Herencia_Polimorfismo;
 
-/**
- *
- * @author ivanc
- */
 public class Ejemplo_Polimorfismo_de_Sobrecarga {
 
     void suma(int a, int b) {
