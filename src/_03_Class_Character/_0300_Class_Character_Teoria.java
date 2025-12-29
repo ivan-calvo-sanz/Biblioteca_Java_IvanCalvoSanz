@@ -1,10 +1,5 @@
 package _03_Class_Character;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_Character_Teoria {
 
     // https://www.w3schools.in/java/characters?utm_content=cmp-true

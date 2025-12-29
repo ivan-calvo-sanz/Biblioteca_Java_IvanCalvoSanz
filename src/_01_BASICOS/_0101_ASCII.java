@@ -1,10 +1,5 @@
 package _01_BASICOS;
 
-/**
- *
- * @author Iván Calvo Sans
- *
- */
 public class _0101_ASCII {
 
     // https://elcodigoascii.com.ar/

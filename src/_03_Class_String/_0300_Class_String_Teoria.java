@@ -1,10 +1,5 @@
 package _03_Class_String;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_String_Teoria {
 
     public static void main(String[] args) {

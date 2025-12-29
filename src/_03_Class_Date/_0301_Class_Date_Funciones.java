@@ -2,11 +2,6 @@ package _03_Class_Date;
 
 import java.util.Date;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Date_Funciones {
 
     // FUNCIONES Date

@@ -1,10 +1,5 @@
 package _03_Class_Object;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_Object_Teoria {
 
     // CONCEPTOS BASICOS CLASE Object

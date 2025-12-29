@@ -1,9 +1,5 @@
 package _03_Class_Exception_Crear_Excepciones_Usuario;
 
-/**
- *
- * @author ivanc
- */
 public class ClienteExisteException extends Exception {
 
     private Cliente cliente;

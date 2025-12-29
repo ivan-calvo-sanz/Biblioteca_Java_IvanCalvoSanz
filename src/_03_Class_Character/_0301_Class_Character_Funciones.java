@@ -1,10 +1,5 @@
 package _03_Class_Character;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Character_Funciones {
 
     // FUNCIONES Character

@@ -1,10 +1,5 @@
 package _10_POO_02_Herencia_Sobreescritura_Metodos;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _10_POO_02_Herencia_Sobreescritura_Metodos_Teoria {
     /**
      * ***** HERENCIA SOBREESCRITURA DE METODOS****

@@ -1,10 +1,5 @@
 package _03_Class_Exception_Crear_Excepciones_Usuario;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_Exception_Crear_Excepciones_Usuario_Teoria {
 
     /**

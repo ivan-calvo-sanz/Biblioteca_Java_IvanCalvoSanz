@@ -29,6 +29,7 @@ public class _0000_Esquema_Basicos {
            ============================================================
          */
         // paso por Referencia (es decir, NO es una copia, cambias el propio array)
+        int[] numeros_1 = new int[5];
         int[] numeros = {10, 20, 30};
         System.out.println(numeros[0]);
 

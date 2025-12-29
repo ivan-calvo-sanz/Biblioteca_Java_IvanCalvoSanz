@@ -2,11 +2,6 @@ package _03_Class_Arrays;
 
 import java.util.Arrays;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_Arrays_Teoria {
 
     // CONCEPTOS BASICOS CLASE Arrays

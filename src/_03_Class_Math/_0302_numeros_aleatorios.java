@@ -1,10 +1,5 @@
 package _03_Class_Math;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0302_numeros_aleatorios {
 
     public static void main(String[] args) {

@@ -1,10 +1,5 @@
 package _00_Teoria;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0000_Info {
 
     // API JAVA

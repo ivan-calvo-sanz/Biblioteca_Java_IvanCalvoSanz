@@ -1,10 +1,5 @@
 package _02_Bucles;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0203_while {
 
     public static void main(String[] args) {

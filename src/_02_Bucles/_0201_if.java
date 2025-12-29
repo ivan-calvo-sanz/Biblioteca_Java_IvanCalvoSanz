@@ -1,10 +1,5 @@
 package _02_Bucles;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0201_if {
 
     // https://www.w3schools.com/java/java_conditions.asp

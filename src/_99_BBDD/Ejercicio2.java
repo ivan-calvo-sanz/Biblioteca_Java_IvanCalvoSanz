@@ -2,10 +2,6 @@ package _99_BBDD;
 
 import java.util.Scanner;
 
-/**
- *
- * @author IVAN
- */
 public class Ejercicio2 {
     static Scanner entrada=new Scanner(System.in);   
     static final String DATO_NO_VALIDO="ERROR: El dato introducido no es válido.\nVuelva a introducir el dato: ";

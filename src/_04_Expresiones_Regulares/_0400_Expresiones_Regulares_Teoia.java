@@ -1,10 +1,5 @@
 package _04_Expresiones_Regulares;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0400_Expresiones_Regulares_Teoia {
 
     // https://www.w3schools.com/java/java_regex.asp

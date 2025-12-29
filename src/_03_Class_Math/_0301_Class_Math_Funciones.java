@@ -1,10 +1,5 @@
 package _03_Class_Math;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Math_Funciones {
 
     // FUNCIONES Math

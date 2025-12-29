@@ -2,10 +2,6 @@ package _01_BASICOS;
 
 import java.util.Scanner;
 
-/**
- *
- * @author IVAN
- */
 public class _0103_Consola_PedidorDeDatos {
 
     static Scanner entrada = new Scanner(System.in);

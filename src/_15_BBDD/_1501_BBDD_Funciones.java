@@ -7,11 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _1501_BBDD_Funciones {
 
     private static Connection miConexion;

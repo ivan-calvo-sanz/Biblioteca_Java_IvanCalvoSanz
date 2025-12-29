@@ -2,11 +2,6 @@ package _03_Class_Scanner;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Scanner_Funciones {
 
     public static void main(String[] args) {

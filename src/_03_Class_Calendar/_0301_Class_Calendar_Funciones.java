@@ -2,11 +2,6 @@ package _03_Class_Calendar;
 
 import java.util.Calendar;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Calendar_Funciones {
 
     // FUNCIONES Calendar

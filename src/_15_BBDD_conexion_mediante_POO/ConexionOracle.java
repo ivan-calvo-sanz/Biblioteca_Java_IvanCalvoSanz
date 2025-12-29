@@ -1,9 +1,5 @@
 package _15_BBDD_conexion_mediante_POO;
 
-/**
- *
- * @author ivanc
- */
 public class ConexionOracle extends ConexionBBDD {
 
     public ConexionOracle(String host, String puerto, String SID, String usuario, String password) {

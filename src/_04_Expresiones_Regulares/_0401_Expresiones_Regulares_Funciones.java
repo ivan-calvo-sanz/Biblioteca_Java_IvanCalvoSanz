@@ -1,10 +1,5 @@
 package _04_Expresiones_Regulares;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0401_Expresiones_Regulares_Funciones {
 
     // FUNCIONES ARRAYS

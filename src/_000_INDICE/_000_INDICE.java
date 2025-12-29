@@ -1,9 +1,5 @@
 package _000_INDICE;
 
-/**
- *
- * @author ivanc
- */
 public class _000_INDICE {
 
     // ***** _01_BASICOS *****

@@ -2,10 +2,6 @@ package _03_Class_Exception_Crear_Excepciones_Usuario;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author ivanc
- */
 public class Main {
 
     public static void main(String[] args) {

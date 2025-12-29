@@ -2,10 +2,6 @@ package _03_Class_Object;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author ivanc
- */
 public class Main {
 
     public static void main(String[] args) {

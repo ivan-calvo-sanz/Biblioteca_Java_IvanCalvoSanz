@@ -1,10 +1,5 @@
 package _00_Plantilla;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0X00_Plantilla_Teoria {
 
     /**

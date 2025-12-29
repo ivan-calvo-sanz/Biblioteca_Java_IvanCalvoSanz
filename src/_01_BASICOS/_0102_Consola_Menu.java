@@ -4,11 +4,6 @@ import _01_BASICOS._0103_Consola_PedidorDeDatos;
 import _01_BASICOS._0104_Consola_ValidarDatos;
 import java.util.Scanner;
 
-/**
- *
- * @author Iván Calvo Sans
- *
- */
 public class _0102_Consola_Menu {
 
     static Scanner entrada = new Scanner(System.in);

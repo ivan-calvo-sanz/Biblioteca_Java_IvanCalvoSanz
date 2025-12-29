@@ -2,6 +2,26 @@ package _10_POO;
 
 public class _1000_POO_Teoia {
 
+    /*
+        ============================================================
+        TABLA RESUMEN – ELEMENTOS COMUNES DE OBJETOS
+        ============================================================
+
+        +---------------------------+-------------------------------------------+----------------------+
+        | ELEMENTO                  | DESCRIPCIÓN                               | DEVUELVE             |
+        +---------------------------+-------------------------------------------+----------------------+
+        | new Clase()               | Crea un objeto                            | referencia objeto    |
+        | instanceof                | Comprueba tipo del objeto                 | boolean              |
+        | obj.getClass()            | Devuelve la clase en tiempo ejecución     | Class<?>             |
+        | obj.getClass().getName()  | Nombre completo de la clase               | String               |
+        | obj.equals(obj2)          | Compara contenido lógico                  | boolean              |
+        | obj == obj2               | Compara referencias                       | boolean              |
+        | obj.toString()            | Representación en texto                   | String               |
+        | obj.hashCode()            | Código hash del objeto                    | int                  |
+        | obj.clone()               | Copia superficial (si es Cloneable)       | Object               |
+        | obj.compareTo(obj2)       | Compara orden natural del objeto          | int (<0,0,>0)        |
+        +---------------------------+-------------------------------------------+----------------------+
+     */
     // CONCEPTOS BASICOS POO
     /**
      * ***** SOBRECARGA DE METODOS ***** cuando en la Clase existe varios métodos con el mismo nombre pero distintos

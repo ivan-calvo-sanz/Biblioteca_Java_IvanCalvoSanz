@@ -4,11 +4,6 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _2000_Interfaces_Graficas_Teoria {
 
     // pagina web info

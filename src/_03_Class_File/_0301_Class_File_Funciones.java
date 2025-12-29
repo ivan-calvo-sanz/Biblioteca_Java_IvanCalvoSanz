@@ -7,11 +7,6 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_File_Funciones {
 
     // FUNCIONES File

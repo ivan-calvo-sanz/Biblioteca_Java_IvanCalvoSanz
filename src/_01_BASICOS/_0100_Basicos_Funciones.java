@@ -3,11 +3,6 @@ package _01_BASICOS;
 import java.util.Date;
 import java.util.Scanner;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0100_Basicos_Funciones {
 
     public static void main(String[] args) {

@@ -6,11 +6,6 @@ import java.io.PrintWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_File_Teoria {
 
     // https://www.w3schools.com/java/java_files.asp

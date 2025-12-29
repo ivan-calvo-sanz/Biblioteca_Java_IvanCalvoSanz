@@ -1,10 +1,5 @@
 package _02_Bucles;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0202_switch {
 
     public static void main(String[] args) {

@@ -2,11 +2,6 @@ package _51_Estructura_Dinamica_Pila;
 
 import java.util.Stack;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0500_Pila_Teoia {
 
     // https://www.w3schools.com/java/java_regex.asp

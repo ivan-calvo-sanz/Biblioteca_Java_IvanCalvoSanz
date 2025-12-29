@@ -5,11 +5,6 @@ import static _03_Class_Arrays._0301_Class_Arrays_Funciones.generaArrayNumerosAl
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0302_Class_Arrays_Matrices_Funciones {
 
     static Scanner entrada = new Scanner(System.in);

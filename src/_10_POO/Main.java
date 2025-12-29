@@ -1,45 +1,85 @@
 package _10_POO;
 
-import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
-/**
- *
- * @author ivanc
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        try {
-            Cliente cliente01 = new Cliente("Paula", "Gomez Asuncion", 30, "C/ Gondomar N5 4Y", "Pontevedra", LocalDate.of(2000, 1, 1));
-            Cliente cliente02 = new Cliente("Marta", "Garcia", 19, "C/ Mayor", "MADRID", LocalDate.of(2002, 2, 2));
-            Cliente cliente03 = new Cliente("Paula", "Gomez Asuncion", 30, "C/ Gondomar N5 4Y", "Pontevedra", LocalDate.of(2000, 1, 1));
 
-            Cuenta cuenta01 = new Cuenta(1111, 0, cliente01);
-            Cuenta cuenta02 = new Cuenta(2222, 0, cliente02);
+        // ============================================================
+        // CREACIÓN DE OBJETOS (polimorfismo)
+        // ============================================================
+        Persona p1 = new Empleado("Ana", 30, 1800);
+        Persona p2 = new Gerente("Luis", 45, 2500, 800);
+        Persona p3 = new Empleado("Ana", 30, 1800);
 
-            cuenta01.ingresar(-200);
-            cuenta01.ingresar(2000);
-            cuenta01.retirar(20000);
-            cuenta01.retirar(1500);
-
-            cuenta02.retirar(200);
-            cuenta02.ingresar(1000);
-
-            cuenta01.verDatos();
-            cuenta02.verDatos();
-
-            // Comprobando equals()
-            System.out.println(cliente01.equals(cliente02));
-            System.out.println(cliente01.equals(cliente03));
-            // Comprobando hashCode()
-            System.out.println(cliente01.hashCode());
-            System.out.println(cliente03.hashCode());
-
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+        // ============================================================
+        // instanceof + casting seguro
+        // ============================================================
+        if (p2 instanceof Gerente) {
+            Gerente g = (Gerente) p2;
+            System.out.println("Salario gerente: " + g.calcularSalario());  //3300
         }
+
+        // ============================================================
+        // equals / == / hashCode
+        // ============================================================
+        System.out.println("p1 == p3: " + (p1 == p3));              // false
+        System.out.println("p1.equals(p3): " + p1.equals(p3));   // true
+        System.out.println("hash p1: " + p1.hashCode());            // 66529
+        System.out.println("hash p3: " + p3.hashCode());            // 66529
+
+        // ============================================================
+        // clone()
+        // ============================================================
+        Persona copia = p1.clone();
+        System.out.println("Copia clonada: " + copia);              // [nombre=Ana, edad=30]
+
+        // ============================================================
+        // ARRAY de objetos
+        // ============================================================
+        Persona[] personas = {p1, p2, p3};
+
+        int empleados = 0;
+        int gerentes = 0;
+        for (Persona p : personas) {
+            if (p instanceof Gerente) {
+                gerentes++;
+            } else if (p instanceof Empleado) {
+                empleados++;
+            }
+        }
+        System.out.println("Empleados: " + empleados);
+        System.out.println("Gerentes: " + gerentes);
+
+        // ============================================================
+        // ORDENAR ARRAY (Comparable → compareTo)
+        // ============================================================
+        Arrays.sort(personas);
+        System.out.println("Ordenados por edad:");
+        for (Persona p : personas) {
+            System.out.println(p);
+        }
+
+        // ============================================================
+        // ARRAYLIST de objetos
+        // ============================================================
+        ArrayList<Persona> lista = new ArrayList<>();
+        lista.add(p1);
+        lista.add(p2);
+        lista.add(p3);
+
+        // ============================================================
+        // SORT ArrayList
+        // ============================================================
+        Collections.sort(lista);
+
+        // ============================================================
+        // compareTo directo
+        // ============================================================
+        int r = p1.compareTo(p2);
+        System.out.println("p1.compareTo(p2): " + r);
     }
 }

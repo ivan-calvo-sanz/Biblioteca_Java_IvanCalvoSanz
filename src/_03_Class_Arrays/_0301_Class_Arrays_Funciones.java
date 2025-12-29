@@ -3,11 +3,6 @@ package _03_Class_Arrays;
 import static _03_Class_Math._0302_numeros_aleatorios.generaNumAleatorio;
 import java.util.Arrays;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_Class_Arrays_Funciones {
 
     public static void main(String[] args) {

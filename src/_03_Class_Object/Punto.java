@@ -1,9 +1,5 @@
 package _03_Class_Object;
 
-/**
- *
- * @author ivanc
- */
 public class Punto {
 
     private double x;

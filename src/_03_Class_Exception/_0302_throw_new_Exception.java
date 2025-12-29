@@ -1,10 +1,5 @@
 package _03_Class_Exception;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0302_throw_new_Exception {
 
     // ***** throw new Exception ****

@@ -3,11 +3,6 @@ package _03_Class_Exception;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0300_Class_Exception_Teoria {
 
     /**

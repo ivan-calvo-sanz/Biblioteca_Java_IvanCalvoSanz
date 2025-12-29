@@ -2,11 +2,6 @@ package _03_Class_Exception;
 
 import java.util.InputMismatchException;
 
-/**
- *
- * @author Iván Calvo Sanz
- *
- */
 public class _0301_finally {
 
     // el codigo dentro de finally SIEMPRE se ejecuta si el programa ha llegado a entrar dentro del try
