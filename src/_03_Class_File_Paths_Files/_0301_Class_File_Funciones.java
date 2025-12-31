@@ -1,4 +1,4 @@
-package _03_Class_File;
+package _03_Class_File_Paths_Files;
 
 import java.io.File;
 import java.io.FileNotFoundException;
