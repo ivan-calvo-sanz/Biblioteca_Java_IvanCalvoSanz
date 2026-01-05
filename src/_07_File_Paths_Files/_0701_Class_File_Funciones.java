@@ -1,4 +1,4 @@
-package _03_Class_File_Paths_Files;
+package _07_File_Paths_Files;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class _0301_Class_File_Funciones {
+public class _0701_Class_File_Funciones {
 
     // FUNCIONES File
     // 01-Pedir un archivo al Usuario (Usuario introducir el nombre del archivo mediante consola)
@@ -81,7 +81,7 @@ public class _0301_Class_File_Funciones {
                 contador++;
             }
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(_0301_Class_File_Funciones.class
+            Logger.getLogger(_0701_Class_File_Funciones.class
                     .getName()).log(Level.SEVERE, null, ex);
         }
         return matriz;
@@ -108,7 +108,7 @@ public class _0301_Class_File_Funciones {
             pw.close();
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(_0301_Class_File_Funciones.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(_0701_Class_File_Funciones.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

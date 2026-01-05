@@ -1,9 +1,9 @@
-package _03_Class_FileReader;
+package _08_FileReader;
 
 import java.io.FileReader;
 import java.io.IOException;
 
-public class _0300_Class_FileReader_Teoria {
+public class _0800_Class_FileReader_Teoria {
 
     public static void main(String[] args) {
 
@@ -14,9 +14,9 @@ public class _0300_Class_FileReader_Teoria {
          * |           MÉTODO            |               DESCRIPCIÓN                        |         DEVUELVE          |
          * +-----------------------------+--------------------------------------------------+---------------------------+
          * | new FileReader(file)        | Crea un FileReader para leer un archivo          | FileReader                |
-         * | read()                      | Lee un carácter del archivo                       | int (carácter o -1)       |
-         * | read(char[] cbuf)           | Lee varios caracteres en un buffer                | int (número de caracteres)|
-         * | close()                     | Cierra el FileReader                              | void                      |
+         * | read()                      | Lee un carácter del archivo                      | int (carácter o -1)       |
+         * | read(char[] cbuf)           | Lee varios caracteres en un buffer               | int (número de caracteres)|
+         * | close()                     | Cierra el FileReader                             | void                      |
          * +-----------------------------+--------------------------------------------------+---------------------------+
          *
          * NOTAS:
@@ -27,8 +27,7 @@ public class _0300_Class_FileReader_Teoria {
         // ============================================================
         // new FileReader(file) | Crea un FileReader | FileReader
         // ============================================================
-        try {
-            FileReader fr = new FileReader("archivo.txt");
+        try (FileReader fr = new FileReader("archivo.txt")) {
 
             // ============================================================
             // read() | Lee un carácter | int
@@ -48,7 +47,7 @@ public class _0300_Class_FileReader_Teoria {
         // Reiniciamos FileReader para ejemplo
         try {
             FileReader fr2 = new FileReader("archivo.txt");
-            char[] buffer = new char[50]; // leer hasta 50 caracteres
+            char[] buffer = new char[200]; // leer hasta 200 caracteres
             int leidos = fr2.read(buffer);
             System.out.println("\n\nContenido leído con buffer (char[]):");
             System.out.println(new String(buffer, 0, leidos));

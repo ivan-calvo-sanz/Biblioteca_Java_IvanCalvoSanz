@@ -1,9 +1,9 @@
-package _03_Class_File_Paths_Files;
+package _07_File_Paths_Files;
 
 import java.io.File;
 import java.io.IOException;
 
-public class _0300_Class_File_Teoria {
+public class _0700_Class_File_Teoria {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package _03_Class_File_Paths_Files;
+package _07_File_Paths_Files;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -6,7 +6,7 @@ import java.nio.file.Files;
 import java.io.IOException;
 import java.util.List;
 
-public class _0300_Class_Paths_Teoria {
+public class _0700_Class_Paths_Teoria {
 
     public static void main(String[] args) {
 

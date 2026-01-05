@@ -1,9 +1,9 @@
-package _03_Class_FileWriter;
+package _08_FileWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class _0300_Class_FileWriter_Teoria {
+public class _0800_Class_FileWriter_Teoria {
 
     public static void main(String[] args) {
 
@@ -29,8 +29,7 @@ public class _0300_Class_FileWriter_Teoria {
         // ============================================================
         // new FileWriter(file) | Crea un FileWriter | FileWriter
         // ============================================================
-        try {
-            FileWriter fw = new FileWriter("archivo.txt");
+        try (FileWriter fw = new FileWriter("archivo.txt")) {
 
             // ============================================================
             // write(String s) | Escribe contenido | void
