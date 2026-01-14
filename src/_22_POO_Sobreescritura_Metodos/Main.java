@@ -1,0 +1,13 @@
+package _22_POO_Sobreescritura_Metodos;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Animal a = new Animal();
+        a.hacerSonido(); //Llama al metodo de Animal
+        
+        Perro p=new Perro();
+        p.hacerSonido(); //Llama al metodo sobreescritura en Perro
+    }
+
+}
