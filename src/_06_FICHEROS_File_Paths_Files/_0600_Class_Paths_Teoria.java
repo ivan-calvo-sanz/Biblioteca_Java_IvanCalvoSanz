@@ -47,6 +47,7 @@ public class _0600_Class_Paths_Teoria {
         Path ruta = Paths.get("ejemplo.txt");
         // Se le puede pasar varios String como parámetros, los une haciendo la ruta
         Path ruta2 = Paths.get("C:\\Users\\Ivan\\Documentos", "archivo.txt");
+        Path ruta3 = Paths.get("D:\\00_ICALVO_ESCRITORIO\\ICSProgramacion\\0_Java\\0_Ejercicios_Java_CalvoSanzIvan\\00_PRUEBAS\\archivo.txt");
         System.out.println(ruta);   // C:\Users\Ivan\Documentos\archivo.txt
 
         // ============================================================
