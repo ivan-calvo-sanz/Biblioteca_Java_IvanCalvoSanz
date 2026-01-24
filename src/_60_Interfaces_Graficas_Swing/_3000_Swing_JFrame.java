@@ -4,9 +4,8 @@ import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class _3000_Interfaces_Graficas_Teoria {
+public class _3000_Swing_JFrame {
 
-    // pagina web info
     // CONCEPTOS BASICOS INTERFACES GRAFICAS
     public static void main(String[] args) {
 

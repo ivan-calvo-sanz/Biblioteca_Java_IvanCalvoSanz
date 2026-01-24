@@ -12,27 +12,25 @@ public class _4000_BBDD_MySQL_CRUD_Basico {
     final static String CLAVE = "";
 
     // ---------------- CONEXIÓN ----------------
-    public static void conectarBBDD() {
+    public static Connection conectarBBDD() {
         try {
             //Conexion mysql
             miConexion = DriverManager.getConnection("jdbc:mysql://" + SERVIDOR + ":" + PUERTO + "/" + BASE_DATOS + "?" + "user=" + USUARIO + "&password=" + CLAVE);
             //Conexion mariadb
             //miConexion = DriverManager.getConnection("jdbc:mariadb://" + SERVIDOR + ":" + PUERTO + "/" + BASE_DATOS + "?" + "user=" + USUARIO + "&password=" + CLAVE);
-            System.out.println("Conexion correcta a la BBDD");
+            System.out.println("Conexion correcta a la BBDD " + BASE_DATOS);
         } catch (SQLException ex) {
             System.err.println("Se ha producido un problema en la conexion. [Codigo]:" + ex.getErrorCode() + " [Error]:" + ex.getMessage());
-
         }
+        return miConexion;
     }
 
     // ------------- CERRAR CONEXIÓN ------------
     public static void cerrarConexion() {
         try {
-            if (miConexion != null) {
-                if (!miConexion.isClosed()) {
-                    miConexion.close();
-                    System.out.println("Desconexion de la BBDD realizada correctamente");
-                }
+            if (miConexion != null && !miConexion.isClosed()) {
+                miConexion.close();
+                System.out.println("Desconexion de la BBDD realizada correctamente");
             } else {
                 System.out.println("La conexion no ha sido realizada");
             }
