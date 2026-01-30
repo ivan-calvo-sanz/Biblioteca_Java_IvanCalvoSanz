@@ -18,7 +18,9 @@ public class _4000_BBDD_MySQL_CRUD_Basico {
             miConexion = DriverManager.getConnection("jdbc:mysql://" + SERVIDOR + ":" + PUERTO + "/" + BASE_DATOS + "?" + "user=" + USUARIO + "&password=" + CLAVE);
             //Conexion mariadb
             //miConexion = DriverManager.getConnection("jdbc:mariadb://" + SERVIDOR + ":" + PUERTO + "/" + BASE_DATOS + "?" + "user=" + USUARIO + "&password=" + CLAVE);
-            System.out.println("Conexion correcta a la BBDD " + BASE_DATOS);
+            if (miConexion != null) {
+                System.out.println("Conexion correcta a la BBDD " + BASE_DATOS);
+            }
         } catch (SQLException ex) {
             System.err.println("Se ha producido un problema en la conexion. [Codigo]:" + ex.getErrorCode() + " [Error]:" + ex.getMessage());
         }

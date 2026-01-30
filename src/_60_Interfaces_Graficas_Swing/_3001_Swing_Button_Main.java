@@ -13,7 +13,6 @@ public class _3001_Swing_Button_Main {
     // *************************************************************
     // ESTAS FUNCIONES ESTAN IMPLEMENTADOS EN EL CODIGO (Source) DEL FORMULARIO
     // *************************************************************
-    // Swing_Button
     // 01-Mostrar un mensaje en un nuevo Panel
     // 02-Mostrar un mensaje en un nuevo Panel con Simbolo de Warning
     // 03-Desactivar un boton
@@ -21,5 +20,9 @@ public class _3001_Swing_Button_Main {
     // 05-Cambiar color fondo boton
     // 06-Seleccionar texto de un JTextField y ponerlo en un jLabel
     // 07-Eliminar texto de un JTextField y de un jLabel
-    // 08-
+    // 08-Boton CONFIRMAR accion
+    // 09-Botón Alternar ON/OFF
+    // 10-Boton cuenta las veces que se ha pulsado
+    // 11-Boton modifica su color dinamicamente
+    // 12-RESETEAR Botones
 }

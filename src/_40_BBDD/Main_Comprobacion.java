@@ -6,7 +6,7 @@ public class Main_Comprobacion {
 
     public static void main(String[] args) {
         // ============================================================
-        // COMPRAR FUNCIONAMIENTO DEL CRUD   _4000_BBDD_MySQL_CRUD_Basico
+        // COMPROBAR FUNCIONAMIENTO DEL CRUD   _4000_BBDD_MySQL_CRUD_Basico
         // RECORDAR DE ACTIVAR Apache y MySQL
         // ============================================================
 

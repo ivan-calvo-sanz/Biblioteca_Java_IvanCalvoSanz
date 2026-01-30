@@ -6,19 +6,27 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JComboBox;
 
-public class _3003_Swing_ComboBox {
+public class _3006_Swing_JComboBox_Main {
 
     public static void main(String[] args) {
+        // *************************************************************
+        // main para COMPROBAR _3006_Swing_JComboBox
+        // *************************************************************
+        _3006_Swing_JComboBox_Form form = new _3006_Swing_JComboBox_Form();
+        form.setVisible(true);
     }
 
-// FUNCIONES Swing ComboBox
-// 01-ComboBox      rellenar un ComboBox
-// 
-// 
-/*
-    *************************************************************
-    01-ComboBox      rellenar un ComboBox
-    *************************************************************
+    // *************************************************************
+    // ESTAS FUNCIONES ESTAN IMPLEMENTADOS EN EL CODIGO (Source) DEL FORMULARIO
+    // *************************************************************
+    // 01- Rellenar ComboBox desde una BBDD 
+    // 02-
+    // 03-
+    // 04-
+    /*
+     * ***********************************************************
+     * 01- Rellenar ComboBox desde una BBDD 
+     *************************************************************
      */
     public static void rellenar_jComboBox_Sexo(Connection miConexion, JComboBox jComboBox_Sexo) {
         String sql = "SELECT * FROM sexo";
@@ -40,5 +48,4 @@ public class _3003_Swing_ComboBox {
             System.err.println("Error SELECT: " + ex.getMessage());
         }
     }
-
 }
